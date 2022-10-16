@@ -1,0 +1,46 @@
+body
+{
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit, Courier, monospace;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qr {
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: min-content;
+}
+
+.header {
+    padding: 10px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
+
+.subheader {
+    padding: 10px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
